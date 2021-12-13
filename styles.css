@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:ital,wght@0,500;1,100&family=Outfit:wght@400;600&family=Poppins:wght@200&family=Roboto:wght@100&display=swap');
+
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 200px;
+  width: 275px;
+  border-radius: 10px;
+  padding: 20px;
+  color: hsl(215, 51%, 70%);
+  font-family: 'Outfit', sans-serif;
+}
+
+@media screen and (min-width: 380px) {
+  .card {
+    margin-top: 150px;
+  }
+}
+
+.card #eth {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 24px;
+}
+
+.support {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid hsl(215, 32%, 27%);
+}
+
+.iconline {
+  margin: 10px 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+.white {
+  color: hsl(0, 0%, 100%);
+}
+
+.avatar {
+  height: 25px;
+}
+
+.cyan {
+  color: hsl(178, 100%, 50%);
+}
+
+.main {
+  margin-bottom: 0;
+}
